@@ -2,9 +2,10 @@
   "name": "basic-node",
   "version": "1.0.0",
   "description": "A-node-basic-session",
-  "main": "app.js",
+  "main": "express-server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node express-server.js",
+    "backend": "nodemon express-server.js"
   },
   "repository": {
     "type": "git",
